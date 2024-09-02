@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: white;
+}
+
+body{
+    background-image: linear-gradient(rgba(128, 0, 128, 0.356),rgba(255, 166, 0, 0.26)) , url(./pexels-jvdm-1457842\ \(1\).jpg) ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header{
+    display: flex;
+    height: 10vh;
+}
+
+.logo{
+    display: flex;
+    flex: 50%;
+}
+
+.menu{
+    display: flex;
+    flex: 50%;
+    justify-content: space-around;
+    margin: auto;
+    margin-right: 5%;
+}
+
+.menu a{
+    text-decoration: none;
+}
+
+.logo h1{
+    margin: auto;
+    margin-left: 15%;
+}
+
+.tudo{
+    display: flex;
+    height: 90vh;
+}
+
+.caixa{
+    margin: auto;
+    width: 60vw;
+    text-align: center;
+}
+
+.caixa h1{
+    font-size: 60px;
+}
+
+.texto{
+    margin: auto;
+    width: 60%;
+}
+
+.botao{
+    display: flex;
+    margin: 20px;
+    justify-content: space-around;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.botao a{
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.aum{
+    background-color: rgb(26, 180, 180);
+}
+
+.adois{
+    background-color: transparent;
+    border: 2px solid rgb(26, 180, 180);
+}
